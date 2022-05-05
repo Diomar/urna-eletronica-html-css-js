@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.urna {
+    display: flex;
+    background-color: #dbd5c9;
+    padding: 30px;
+}
+
+.tela {
+    width: 500px;
+    height: 320px;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    
+
+}
+
+.teclado {
+    margin-left: 30px;
+    background-color: #403A3A;
+    
+}
+
+.teclado__linha {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.teclado_botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    font-size: 25px;
+    background-color: black;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px #999;
+}
+
+.botao--branco {
+   background-color: white;
+   color: black; 
+   font-size: 15px;
+}
+
+.botao--corrige {
+    background-color: #f09046;
+    color: black;
+    font-size: 15px;
+}
+
+.botao--confirma {
+    background-color: #48c079;
+    color: black;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+}
